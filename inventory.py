@@ -10,6 +10,10 @@ def view_inventory():
     # # Ví dụ: Mì tôm - Giá: 5000 - SL: 100
     pass
 
+def check_low_stock():
+    # Duyệt list, kiểm tra nếu qty < 5 thì in ra cảnh báo
+    pass
+
 def main():
     while True:
         print("\n--- QUẢN LÝ KHO HÀNG ---")
