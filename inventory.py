@@ -1,5 +1,10 @@
 # Biến lưu trữ dữ liệu: Mỗi sản phẩm là một dict {'name': '...', 'price': 0, 'qty': 0}
 products = []
+
+def add_product():
+# Nhập tên, giá, số lượng -> append vào products
+print("Đã nhập hàng thành công.")
+
 def main():
     while True:
         print("\n--- QUẢN LÝ KHO HÀNG ---")
